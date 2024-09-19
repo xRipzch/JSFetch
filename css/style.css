@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#inpUrl {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#btnFetch {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#btnFetch:hover {
+    background-color: #ff7e5f;
+    color: #fff;
+}
+
+#txtOutput {
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    resize: none;
+}
